@@ -188,3 +188,10 @@ function trocar_curso(){
         cursos.style.backgroundImage=imagens_curso[curso];
     })
 }
+
+//Trabalhamento o overlay de carregamento
+document.addEventListener("DOMContentLoaded", function (e){
+    //removendo div de overlay
+    let loaderoverlay = document.getElementById('loader-overlay');
+    loaderoverlay.style.display="none";
+});
